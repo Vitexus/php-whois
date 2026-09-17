@@ -1,0 +1,6 @@
+php-phois-php-whois (1.0.0-1) UNRELEASED; urgency=medium
+
+  * Initial packaging of phois/whois (regru/php-whois), a WHOIS lookup
+    dependency of system.spoje.net's domain order processing.
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 17 Sep 2026 13:25:03 +0200

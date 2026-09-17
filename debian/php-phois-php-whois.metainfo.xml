@@ -1,0 +1,16 @@
+<component type="generic">
+  <id>cz.vitexsoftware.php-phois-php-whois</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Phois Whois</name>
+  <summary>WHOIS lookup client library for PHP</summary>
+  <description>
+    <p>
+      Phois\Whois queries the appropriate WHOIS server for a domain and
+      parses the response, so PHP applications can check domain
+      registration status and availability.
+    </p>
+  </description>
+  <icon type="stock">package-x-generic</icon>
+  <url type="homepage">https://github.com/regru/php-whois</url>
+</component>

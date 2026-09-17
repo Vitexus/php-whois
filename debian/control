@@ -1,0 +1,30 @@
+Source: php-phois-php-whois
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ pkg-php-tools,
+ php-cli,
+ jq,
+ phpab,
+ appstream,
+Standards-Version: 4.7.0
+Homepage: https://github.com/regru/php-whois
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/Vitexus/php-whois.git
+Vcs-Browser: https://github.com/Vitexus/php-whois
+
+Package: php-phois-php-whois
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ php-common,
+ php-curl,
+ composer,
+Description: WHOIS lookup client library for PHP
+ Phois\Whois queries the appropriate WHOIS server for a domain and
+ parses the response, used by applications that need to check domain
+ registration/availability (e.g. system.spoje.net's domain order
+ processing).
